@@ -15,58 +15,64 @@ jobs:
           no_output_timeout: 290m
 workflows:
   version: 2
-  test:
+  test1:
     jobs:
       - one
-  wk:
+  test2:
     jobs:
       - one
-  t2:
+  test3:
     jobs:
       - one
-  lsa:
+  test4:
     jobs:
       - one
-  mam:
+  test5:
     jobs:
       - one
-  just:
+  test6:
     jobs:
       - one
-  kid:
+  test7:
     jobs:
       - one
-  kurl:
+  test8:
     jobs:
       - one
-  list:
+  test9:
     jobs:
       - one
-  tsest:
+  test10:
     jobs:
       - one
-  build:
+  test11:
     jobs:
       - one
-  mister:
+  test12:
     jobs:
       - one
-  link:
+  test13:
     jobs:
       - one
-  mother:
+  test14:
     jobs:
       - one
-  mushj:
+  test15:
     jobs:
-      - one  
-  misters:
+      - one
+  test16:
     jobs:
-      - one  
-  jikulsi:
+      - one
+  test17:
     jobs:
-      - one  
-  m1jiku:
+      - one
+  test18:
     jobs:
-      - one  
+      - one
+  test19:
+    jobs:
+      - one
+  test20:
+    jobs:
+      - one
   
